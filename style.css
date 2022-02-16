@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Irish+Grover&family=Outfit:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #d5e1ef;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: "Outfit", sans-serif;
+}
+
+/* Criação do container */
+.container {
+  width: 320px;
+  padding: 16px;
+  border-radius: 19px;
+  background-color: white;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Definição do valor de largura da imagem dentro do container */
+.container > img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+/* Alinhamento do titulo e valores de fonte </h3> */
+.titulo {
+  text-align: center;
+  margin: 20px 0;
+  font-size: 1.4rem;
+  color: hsl(218, 44%, 22%);
+}
+
+/*  */
+.container > p {
+  text-align: center;
+  margin-bottom: 20px;
+  color: hsl(220, 15%, 55%);
+}
